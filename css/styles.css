@@ -1,0 +1,236 @@
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:20px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+        text-decoration: none;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background-color:rgba(0, 0, 0, 0.6);
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+//#main {
+background-color: #22004D; #128DB2
+}//
+
+.carbon_fibre {
+background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+.stylish-panel > div > div{
+    padding: 50px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.stylish-panel > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+     background: url('../images/bench.jpg') center center fixed; 
+  //background: 
+    //repeating-linear-gradient(
+      -55deg,
+     #128DB2,
+      #128DB2 10px,
+      #FF004B 10px,
+      #FF004B 20px
+    );//
+    transition: 0.7s;
+}
+
+.stylish-panel > div:hover img {
+    border-radius: 50%;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.border_item {
+    border: 10px solid #D1D0CE;
+}  
+
+.circle {
+      width: 38px;
+      height: 38px;
+      border-radius: 40%
+}
+
+.pic{
+      width: 22px;
+      height: 22px;
+      border-radius: 20%
+}
+
+.myPic{
+      animation: flow 2s infinite;
+      margin-left: 40px;
+      margin-top: 15px;
+      width: 42px;
+      height: 42px;
+      border-radius: 20%
+}
+
+  
+
+
+body {
+  background-color: white; #128DB2
+  margin: 0;
+  padding: 0;
+}
+
+body#home {
+  background: url('../images/bench.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#creator {
+  background: url('../images/wheel.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#contacts {
+  background: url('../images/contacts.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#journalist {
+  background: url('../images/soul3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#project {
+  background: url('../images/soul1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  padding-bottom: 5px;
+}
+
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 500px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 300px;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+
+
+   opacity: 0;
+  }
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+.col-lg-3 i {
+    display:block;
+    text-align:center
+}
+
+
+#rcorners {
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color:rgba(0, 0, 0, 0.8)
+}
