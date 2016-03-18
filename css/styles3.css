@@ -1,0 +1,141 @@
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+  
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float: left;
+        list-style: none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+                        font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+         
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+        text-decoration: none;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:10px;
+        border-radius:5px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background-color:rgba(0, 0, 0, 0.7);
+        text-align: left;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+//#main {
+background-color: #22004D; #128DB2
+}//
+
+
+
+body {
+  background-color: white; #128DB2
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body#project {
+  background: url('../images/soul1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  padding-bottom: 5px;
+}
+
+div#space {
+  padding-top 50px;
+}
+
+#rcorners {
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color:rgba(0, 0, 0, 0.8);
+}
+
+p{
+  font-weight:500;
+}
+
+p#space{
+  padding-top: 50px;
+  color: #cccccc;
+}
+
+
+h2#title{
+  font-family: Pacifico;
+  color: #EC008C;
+  font-weight:400;
+}
+
+h4{
+ color: #7fc4da;
+}
+
+
+h5{
+  color: #7fc4da;
+
+}
+
+h6 {
+
+}
+
+h6#space{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+blockquote {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+i {
+  padding-top: 35px;
+}
