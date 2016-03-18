@@ -59,19 +59,6 @@
             display:block;
         }
 
-//#main {
-background-color: #22004D; #128DB2
-}//
-
-
-
-body {
-  background-color: white; #128DB2
-  margin: 0;
-  padding: 0;
-}
-
-
 
 body#project {
   background: url('../images/soul1.jpg') no-repeat center center fixed; 
@@ -92,16 +79,21 @@ div#space {
 #rcorners {
   border-radius: 15px;
   -moz-border-radius: 15px;
-  background-color:rgba(0, 0, 0, 0.8);
+  background-color:rgba(0, 0, 0, 0.9);
 }
 
 p{
-  font-weight:500;
+  color: #cccccc;
+}
+
+li{
+ color: #cccccc;
 }
 
 p#space{
-  padding-top: 50px;
+  padding-top: 25px;
   color: #cccccc;
+  font-weight:500;
 }
 
 
